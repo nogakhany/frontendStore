@@ -1,1 +1,22 @@
-
+html{
+  box-sizing: border-box;
+}
+*, *:before,*:after{
+  /*significa HEREDAD el valor de box sizing de ARRIBA*/
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: arial,helvetica,sans-serif;
+}
+header{
+  text-align: center;
+  padding: 20px 0;
+}
+.contenedor{
+  margin: 0 auto;
+  width: 800px;
+}

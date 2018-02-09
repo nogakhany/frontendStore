@@ -49,3 +49,47 @@ ul.lista-productos{
   margin: 0;
   padding: 0;
 }
+ul.lista-productos li{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+/* lo siguiente intenta solucionar el espacio que dejan algunas imagenes*/
+ul.lista-productos li:nth-child(2n+1){
+   clear: both;
+}
+ul.lista-productos li img{
+  /* encuadrar las imagenes con bordes*/
+  border: 10px solid rgba(128,1,195,.45);
+}
+/* cuando el mouse pasa por encima de la imagen, configuramos border con HOVER*/
+ul.lista-productos li img:hover{
+  border: 10px solid rgba(128,1,195,1);
+}
+ul.lista-productos li p{
+
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+
+}
+ul.lista-productos li p span{
+  font-size: 40px;
+  color: #ffce00;
+}
+.boton{
+  background-color: #ffce00;
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(128,1,195,.8);
+  font-size: 18px;
+}
+.boton:hover{
+  color: rgba(128,1,195,1);
+}

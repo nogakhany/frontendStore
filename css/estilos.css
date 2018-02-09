@@ -1,5 +1,7 @@
 html{
   box-sizing: border-box;
+height: 100%;
+
 }
 *, *:before,*:after{
   /*significa HEREDAD el valor de box sizing de ARRIBA*/
@@ -10,7 +12,20 @@ html{
   padding: 0;
 }
 body{
+  height: 100%;
   font-family: arial,helvetica,sans-serif;
+  /** degradado generado por la pagina colorzilla **/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+47,a849a3+100 */
+  background: #e570e7; /* Old browsers */
+  background: -moz-linear-gradient(left, #e570e7 0%, #c85ec7 47%, #a849a3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 ); /* IE6-9 */
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
 }
 header{
   text-align: center;
